@@ -1,0 +1,91 @@
+/*conteneur gris noir*/
+#blocknoir{
+    background-color: #4a4a4c;
+    display: inline-block;
+    width: 200px;
+    padding: 40px;
+    padding-bottom: 65px;
+}
+/*conteneur gris clair*/
+#blockgris{
+    background-color: #f8f8f8;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 30px;
+    vertical-align: top;
+}
+/*image*/
+#pinguoin{
+    filter: grayscale(100%);
+    border-radius: 100%;
+    border: 10px solid white; 
+    width: 190px;
+    height: 190px;
+}
+/*Titre prenom*/
+h1{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin:-1px;
+}
+/*Titre nom*/
+#lastname{
+    color: #11a9f3;
+    font-family: 'Roboto','Open Sans', sans-serif;
+    font-weight: bold;
+}
+/*Titre prenom*/
+h2{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    display: inline;
+}
+/*Titres blancs dans le block noir*/
+h3{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+/*Titres noirs dans le block gris*/
+h4{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    color: black;
+    margin:-1px;
+}
+/*titres bleus*/
+h5{
+    color: #11a9f3;
+    font-family: 'Roboto','Open Sans', sans-serif;
+    margin:-1px;
+}
+/*parragraphe*/
+p{
+    font-family: 'Roboto','Open Sans', sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+/*Icones format*/
+i {
+    color: #11a9f3;
+    font-size: 19px; 
+   }
+/*parragraphe blanc dans le block noir*/
+#blocknoir p{
+    color: white;
+    display: inline;
+    background-color: #4a4a4c;
+}
+/*Icones etoiles score*/
+#etoile{
+    text-align: right;
+    color: #11a9f3;
+    font-size: 15px; 
+    float:right;
+}
+/*ligne separateur*/
+hr {
+    border-top: 1px;
+    color: rgb(141, 133, 133);
+}
